@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   get 'home' => 'pages#home'
   
   get 'contact' => 'pages#contact' 
-  resources :catalogues
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
